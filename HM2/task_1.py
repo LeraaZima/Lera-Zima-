@@ -1,5 +1,5 @@
 slovo1 = input(f'Введите слово на латинице  /n ')
-slovo1_len = len(slovo1)
+slovo1_len = len(slovo1.strip())
 idx = slovo1_len // 2
 
 if slovo1_len % 2 == 0:
